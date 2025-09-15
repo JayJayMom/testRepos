@@ -1,0 +1,199 @@
+
+
+.container1 {
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 0 90px;
+}
+
+.header {
+    display:flex;
+    color: #F9FAF8;
+    justify-content:  space-between;
+    padding: 10px 0px;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.header-link {
+    display:flex;
+    font: 18px; 
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.top-body {
+    padding: 50px 0px; 
+    display: flex;
+    flex: 1; 
+    gap: 10px;
+}
+
+.left{ 
+    flex: 1;
+    /* display: flex;
+    flex-direction: column; */
+    gap: 5px;
+}
+
+
+.right {
+    background-color: gray ;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900px; 
+
+}
+
+.body-text {
+    margin-top: 10px
+}
+
+.button {
+    background: #3882f6;
+    color: #F9FAF8;
+    display: inline-block;
+    padding: 2px;
+    width: 80px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 15px;
+    
+}
+
+.random {
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900px; 
+    font-style: bold;
+    color: #1F2937;
+}
+
+.frames {
+    display: flex;
+    justify-content: center;
+    /* gap: 15px; */
+    padding: 20px 160px; /* 增加一些内边距 */
+}
+
+.block {
+  flex: 1; /* 让每个框平分容器的宽度 */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* text-align: center; */
+}
+
+.sub-block {
+    /* flex:1; */
+    /* display: flex; */
+    width: 50%;
+    aspect-ratio: 1 / 1; /* 保持正方形比例，你可以根据需要调整 */
+    border: 2px solid #2962ff; /* 蓝色边框 */
+    border-radius: 12px; /* 圆角 */
+    background-color: #fff; /* 框的背景色 */
+    box-sizing: border-box; /* 确保内边距和边框包含在元素的总宽度和高度内 */
+}
+
+.sub-text {
+    /* flex:1; */
+    /* display: inline-block; */
+    margin-top: 10px; /* 控制文本与框的间距 */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    width: 50%; /* 确保文本容器与框同宽 */
+    text-align: center; /* 将文字右对齐 */
+
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 40px 220px;
+    background: #E5E7EB;
+    height: 100px;
+
+}
+
+.quotes {
+    flex: 1;
+    font: 36px;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.author {
+    flex:1;
+    text-align: right;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 40px 150px;
+    background-color:#3882f6;
+    height:100px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+}
+
+.call-to-action-left {
+    flex:1;
+    color:#F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: left; */
+    padding-left: 30px;
+}
+
+p, h4 {
+    margin:0px 0 0;
+}
+
+.button2 {
+    /* flex:1; */
+    display: inline;
+    background: #3882f6;
+    align-items: flex-start;
+    color: #F9FAF8;
+    /* padding-right: 20px; */
+    padding: 6px 20px; 
+    margin-right: 50px;
+    /* width: 30px; */
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+.container5 {
+    background: #1F2937;
+    color: #F9FAF8;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}

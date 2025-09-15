@@ -1,0 +1,30 @@
+body {
+    padding: 0 50px;
+}
+
+.container1 {
+    background: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display:flex;
+    color: #F9FAF8;
+    justify-content:  space-between;
+}
+
+.header .logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.header-link {
+    display:flex;
+    font: 18px; 
+    justify-content: space-evenly;
+}
+
+button {
+    background: #3882f6;
+    color: #F9FAF8;
+}
